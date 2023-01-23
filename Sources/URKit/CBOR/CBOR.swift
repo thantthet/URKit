@@ -169,7 +169,7 @@ extension CBOR {
                 comment: nil
             )
         case .date(let date):
-            return .item(date.ISO8601Format().flanked("1(", ")"))
+            return .item(date.description.flanked("1(", ")"))
         default:
             fatalError()
         }
