@@ -1,3 +1,4 @@
+# Based on https://github.com/lvaccaro/URKit/blob/8267906d5d66201c84f342798d3aaeadec00cf70/URKit.podspec
 #
 # Be sure to run `pod lib lint URKit.podspec' to ensure this is a
 # valid spec before submitting.
@@ -24,7 +25,7 @@ by Wolf McNally and Christopher Allen
 
   s.homepage         = 'https://github.com/BlockchainCommons/URKit'
   s.license          = { :type => 'BSD-2', :file => 'LICENSE.md' }
-  s.author           = { 'lvaccaro' => 't@ttkz.me' }
+  s.author           = { 'thantthet' => 't@ttkz.me' }
   s.source           = { :git => 'https://github.com/thantthet/URKit.git', :branch => 'master' }
 
   s.swift_version = '5.0'
